@@ -1,4 +1,197 @@
-.App {
+div#root {
+  background-color: burlywood;
+}
+
+.bwood {
+  background-color: burlywood;
+}
+
+.TypeBubblesCont{
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:white;
+
+}
+.BubblesProps {
+    /* padding: 2px 5px; */
+    padding: 0px 5px 3px 5px;
+  
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.pokehf{
+  background-color: lightgray;
+  padding: .5rem 1rem;
+
+
+  border-radius: 10px;
+}
+
+.BigPoke {
+  height: max(340px,40vw);
+}
+.BigPokePic {
+  height: 100%;
+  width: auto;
+}
+
+
+.Self-GreyFill {
+  background-color: darkgrey;
+
+}
+.Self-BlackBorder{
+  border-style: double;
+  border-width: 8px;
+  border-color: black;
+
+}
+
+/*  */
+
+.ByName-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.ByName-dropdown-content {
+  display: none;
+  position: relative;
+  left: -100px; 
+  /* top: ; */
+  background-color: darkseagreen;
+  width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.ByName-dropdown:hover .ByName-dropdown-content {
+  display: block;
+}
+
+.ByType-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.ByType-dropdown-content {
+  display: none;
+  position: relative;
+  left: -300px; 
+  /* top: ; */
+  background-color: darkseagreen;
+  width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.ByType-dropdown:hover .ByType-dropdown-content {
+  display: block;
+}
+
+/*  */
+
+
+
+.PokemonTypeNormal {background-color:rgb(168,167,122);}
+.PokemonTypeFire {background-color:rgba(238,129,48);}
+.PokemonTypeWater {background-color:rgb(99,144,240);}
+.PokemonTypeElectric {background-color:rgb(247,208,44);}
+.PokemonTypeGrass {background-color:rgb(122,199,76);}
+.PokemonTypeIce {background-color:rgb(150,217,214);}
+.PokemonTypeFighting {background-color:rgb(194,46,40);}
+.PokemonTypePoison {background-color:rgb(163,62,161);}
+.PokemonTypeGround {background-color:rgb(226,191,101);}
+.PokemonTypeFlying {background-color:rgb(169,143,243);}
+.PokemonTypePsychic {background-color:rgb(249,85,135);}
+.PokemonTypeBug {background-color:rgb(166,185,26);}
+.PokemonTypeRock {background-color:rgb(182,161,54);}
+.PokemonTypeGhost {background-color:rgb(115,87,151);}
+.PokemonTypeDragon {background-color:rgb(111,53,252);}
+.PokemonTypeDark {background-color:rgb(112,87,70);}
+.PokemonTypeSteel {background-color:rgb(183,183,206);}
+.PokemonTypeFairy {background-color:rgb(214,133,173);}
+
+.test{background-color: #8e8276;}
+
+
+
+
+
+ /* .PokemonTypeFire {background-color:#EE8130;} */
+/*.PokemonTypeWater {background-color:#6390F0;}
+.PokemonTypeElectric {background-color:#F7D02C;}
+.PokemonTypeGrass {background-color:#7AC74C;}
+.PokemonTypeIce {background-color:#96D9D6;}
+.PokemonTypeFighting {background-color:#C22E28;}
+.PokemonTypePoison {background-color:#A33EA1;}
+.PokemonTypeGround {background-color:#E2BF65;}
+.PokemonTypeFlying {background-color:#A98FF3;}
+.PokemonTypePsychic {background-color:#F95587;}
+.PokemonTypeBug {background-color:#A6B91A;}
+.PokemonTypeRock {background-color:#B6A136;}
+.PokemonTypeGhost {background-color:#735797;}
+.PokemonTypeDragon {background-color:#6F35FC;}
+.PokemonTypeDark {background-color:#705746;}
+.PokemonTypeSteel {background-color:#B7B7CE;}
+.PokemonTypeFairy {background-color:#D685AD;} */
+
+
+/* 
+Normal
+Fire
+Water
+Electric
+Grass
+Ice
+Fighting
+Poison
+Ground
+Flying
+Psychic
+Bug
+Rock
+Ghost
+Dragon
+Dark
+Steel
+Fairy
+*/
+
+
+/* 
+Normal Type: A8A77A
+Fire Type:  EE8130
+Water Type:  6390F0
+Electric Type:  F7D02C
+Grass Type:  7AC74C
+Ice Type:  96D9D6
+Fighting Type:  C22E28
+Poison Type:  A33EA1
+Ground Type:  E2BF65
+Flying Type:  A98FF3
+Psychic Type:  F95587
+Bug Type:  A6B91A
+Rock Type:  B6A136
+Ghost Type:  735797
+Dragon Type:  6F35FC
+Dark Type:  705746
+Steel Type:  B7B7CE
+Fairy Type:  D685AD
+*/
+
+
+/* Below is from original files*/
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +228,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
